@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: fake-serif;
+    src: url(../Fonts/fake-serif/Fake\ Serif.ttf);
+  }
+
+* {
+    font-family: 'Fasthand', cursive;
+}
+
+h1 {
+    font-family: fake-serif;
+}
