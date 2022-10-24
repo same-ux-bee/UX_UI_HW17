@@ -1,0 +1,187 @@
+
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    font-family: 'Kalam', cursive;
+    /*
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Redacted Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+    */
+}
+header {
+    height:8vh;
+    min-height: 100px;
+    width:100vw;
+    background-color: black;
+    position: sticky;
+    top:0%;
+    left:0%;
+    padding: 1% 2%;
+}
+a {
+    height:fit-content;
+    width: fit-content;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.brand {
+    display: inline-block;
+    height:100%;
+    width: 40%;
+    padding: 1% 0 0% 0;
+    vertical-align: top;
+}
+
+.logo {
+    display: inline-block;
+    height: 80%;
+    width: 30%;
+    max-width: 100px;
+    margin: 0 0 0 0;
+}
+
+.page-title {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    color:seashell;
+    font-size: xx-large;
+    margin: 0 0 1% 1%;
+    vertical-align: top;
+}
+
+header nav {
+    display: inline-block;
+    height: 100%;
+    width: 59%;
+    text-align:right;
+}
+
+.nav-item {
+    display: inline-block;
+    max-height: 5vh;
+    width: fit-content;
+    color:seashell;
+    font-size: large;
+    font-weight: 600;
+    padding: 3% 3% 3% 3%;
+    vertical-align: bottom;
+}
+
+.hero-section {
+    height:82vh;
+    width:100vw;
+
+    padding: 5% 10% 3% 10%;
+}
+
+h2 {
+    text-align: left;
+    font-size: xxx-large;
+    padding: 0 0 3% 0;
+}
+
+.hero-image {
+    display: inline-block;
+    height:100%;
+    width: 50%;
+    border-radius: 10%;
+    margin-right: 3%;
+}
+
+.hero-card {
+    display: inline-block;
+    height: 85%;
+    width: 100%;
+    vertical-align: top;
+    padding: 3% 5% 3% 5%;
+    position: relative;
+    border: 3px solid gainsboro;
+    box-shadow: 16px 14px 15px 4px rgba(135,135,135,0.78);
+    border-radius: 5%;
+}
+
+.hero-text {
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    vertical-align: top;
+    padding: 0 0 3% 0;
+}
+
+
+h3 {
+    text-align: left;
+    font-size: xx-large;
+    padding-bottom: 3%;
+    font-weight: 500;
+    max-height: 15%;
+}
+
+
+.hero-blurb {
+    font-size: x-large;
+    font-weight: 500;
+    vertical-align: top;
+    line-height: 1.5em;
+    padding-bottom: 10%;
+    max-height: 72%;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    font-size: large;
+    padding: 3%;
+    margin: 6% 0;
+    float: right;
+
+}
+footer {
+    height:10vh;
+    min-height: 100px;
+    width:100vw;
+    background-color: black;
+    position: fixed;
+    bottom: 0%;
+    left:0%;
+    padding: 1% 2%;
+}
+footer nav{
+    display: inline-block;
+    height: 100%;
+    width: 59%;
+    text-align: left;
+    vertical-align: top;
+
+}
+.social-media {
+    display: inline-block;
+    height:100%;
+    width:39%;
+    text-align:right;
+    padding: 1% 0 0 0;
+}
+
+.icon {
+    display:inline;
+    height: 50%;
+    width: 15%;
+    max-width: 75px;
+    border-radius: 20%;
+    vertical-align: middle;
+    margin: 0 0 0 4%;
+}
+
+h5 {
+    height: fit-content;
+    width:100%;
+    color: silver;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
